@@ -142,6 +142,10 @@ footer ul li{
     margin: 0 10px;
 }
 
+.ft-lg{
+    width: 142px;
+}
+
 /* Tipografia */
 h1{
     font-weight: 900;
@@ -167,6 +171,13 @@ h3{
     .marginb {
         margin-bottom: 0.5em;
     }
+    .redes{
+        width: 20px;
+    }
+    .ft-lg{
+        width: 200px;
+        margin-bottom: 10px;
+    }
     
 }
 
@@ -174,11 +185,18 @@ h3{
     h1 {
         font-size: 3em;
     }
+    .redes{
+        width: 20px;
+    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
     h1 {
         font-size: 4em;
+    }
+    .ft-lg{
+        width: 120px;
     }
 }
 
@@ -186,6 +204,7 @@ h3{
     h1 {
         font-size: 5em;
     }
+    
 }
 
 @media (min-width: 1200px) { 
